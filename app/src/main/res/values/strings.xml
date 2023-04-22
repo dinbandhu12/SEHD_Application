@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SHED_Application</string>
+
+    <string name="hyperlinkOne">Please Visit for more Information    <a  href='www.google.com'>See more</a></string>
+    <string name="hyperlinkTwo">Please Visit for more Information    <a  href='www.google.com'>See more</a></string>
+
+</resources>

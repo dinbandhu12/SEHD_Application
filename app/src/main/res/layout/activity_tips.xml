@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tips">
+    <include layout="@layout/menubar"/>
+
+    <TextView
+        android:id="@+id/Full_Result_Text"
+        android:layout_width="231dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:text="Tips to take care your Eyes"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="350dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="40dp"
+        android:text="●  Eat a Healthy, Balanced diet, the food which contain Nutrients like omega-3 fatty acids, lutein, zinc and Vitamins C and E."
+        android:textColor="#33470B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Full_Result_Text"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="350dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="20dp"
+        android:text="●  Use safety eyewear if you work with hazardous or airborne materials on the job or at home"
+        android:textColor="#33470B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:text="●  Wear sunglasses. The right pair of shades will help protect your eyes from the sunâ€™s ultraviolet (UV) rays."
+        android:textColor="#33470B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="351dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="20dp"
+        android:text="●  Visit your eye doctor monthly for check-ups."
+        android:textColor="#33470B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:text="●  Look away from the computer screen every 20 minutes for 20 seconds at something 20 feet away to reduce eye strain."
+        android:textColor="#33470B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="350dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="20dp"
+        android:text="●  Quit smoking. It makes you more likely to get cataracts, damage to your optic nerve, and macular degeneration."
+        android:textColor="#33470B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
